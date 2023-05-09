@@ -1,0 +1,49 @@
+.projectContentContainer {
+    padding-top: 7rem;
+    padding-bottom: 12rem;
+}
+
+.projectContentRow {
+    padding-top: 3rem;
+}
+.projectContentSubRow {
+
+}
+.contentTitle {
+    font-family: "Roboto", "sans-serif";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+}
+
+.contentSectionTitle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    padding-bottom: 0.3rem;
+}
+
+.contentSection {
+    font-family: "Inter", sans-serif;
+    line-height: 184%;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border: none;
+    padding-bottom: 2.5rem;
+}
+
+.contentList {
+    font-family: "Inter", sans-serif;
+    padding-bottom: 5rem;
+}
+
+.contentSectionBullet {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    border: none;
+}

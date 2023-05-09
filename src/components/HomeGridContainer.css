@@ -1,0 +1,81 @@
+.homeGridHeader {
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+    padding-top: 4vh;
+    padding-bottom: 2vh;
+    padding-left: 3vw;
+    display: none;
+}
+
+.homeGridHeaderText {
+    font-size: 20px !important;
+}
+
+.homeGridBorderRow {
+    border-top: 0 solid black;
+}
+
+.homeGridProjectRow {
+    display: flex;
+    padding-top: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.homeGridProjectCol {
+    padding-right: 0;
+    padding-left: 0;
+    position: relative;
+}
+
+.homeGridProjectCol:first-child {
+    padding-left: 0;
+}
+
+.homeGridProjectCol:last-child {
+    padding-right: 0;
+}
+
+.no-padding {
+    --bs-gutter-x: 0;
+}
+
+.vr-line {
+    border-right: 1px solid #000;
+    height: 100%;
+    margin-left: 0;
+    position: absolute;
+    width: 100%;
+    animation: vr-drawn-in 1.5s forwards linear;
+}
+
+.hr-line {
+    position: absolute;
+    border-bottom: 1px solid #000;
+    animation: hr-drawn-in 1.5s forwards linear;
+}
+
+@keyframes vr-drawn-in {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes hr-drawn-in {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .vr-line {
+        display: none;
+    }
+}

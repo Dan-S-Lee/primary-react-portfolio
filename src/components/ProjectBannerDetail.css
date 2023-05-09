@@ -1,0 +1,27 @@
+.projectBannerDetailContainer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid;
+
+}
+
+.projectBannerDetailRow {
+    text-align: left;
+    justify-content: center;
+}
+
+.bannerDetailTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.bannerDetail {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    color: #313131;
+    white-space: pre-line;
+}

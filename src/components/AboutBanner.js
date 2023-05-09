@@ -12,14 +12,14 @@ function AboutBanner() {
                     <Row>
                         <Col className={"aboutNameDiv"}>
                             <p className="aboutJobName">
-                                Lauren Hurr
+                                Daniel Lee
                             </p>
                         </Col>
                     </Row>
                     <Row>
                         <Col className={"aboutJobDiv"}>
                             <p className="aboutJobTitle">
-                                Product Designer
+                                Software Engineer
                             </p>
                         </Col>
                     </Row>
@@ -53,7 +53,7 @@ function AboutBanner() {
                 </Col>
                 <Col md={6} className={"aboutDescCol"}>
                     <div className={"imageDiv"}>
-                        <img className="aboutProfilePic" src={"images/headshot.png"} alt={"AboutMePhoto"}/>
+                        <img className="aboutProfilePic" src={"images/headshot.jpg"} alt={"AboutMePhoto"}/>
                     </div>
                 </Col>
             </Row>

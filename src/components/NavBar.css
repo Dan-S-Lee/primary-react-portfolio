@@ -1,0 +1,28 @@
+
+.navbar.header {
+  --bs-navbar-padding-x: 2vw;
+  min-height: 85px;
+  max-height: 100%;
+  font-size: 16px;
+  border-bottom: 1px solid black;
+  backdrop-filter: blur(12px);
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-left: 1.5vw
+}
+
+.nav-link {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+  color: #000000 !important;
+  text-align: right;
+}
+
+.nav-link.underline {
+  text-decoration: underline;
+  font-weight: 700;
+}

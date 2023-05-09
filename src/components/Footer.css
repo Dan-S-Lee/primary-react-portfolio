@@ -1,0 +1,25 @@
+.footer.navbar {
+    --bs-navbar-padding-x: 2vw;
+    border-top: 1px solid black;
+    color: #F5F5F5;
+    height: 10vh;
+    max-height: 100px;
+    font-size: 16px;
+}
+
+.footer > .navbar-brand {
+    font-size: 16px;
+    font-weight: 450;
+
+}
+
+.footerBrand {
+    padding-left: 0;
+}
+
+.footer > * > .nav-link {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    color: #000000 !important;
+    text-decoration: underline;
+}

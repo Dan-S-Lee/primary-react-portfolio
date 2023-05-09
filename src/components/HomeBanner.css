@@ -1,0 +1,27 @@
+.intro {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.introContainer {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.intro-headline {
+    font-size: 5rem;
+    line-height: 6rem;
+    color: #000000;
+    font-weight: 400;
+}
+.intro-paragraph {
+    font-size: 16px;
+    color: #656565;
+}
+.HomeBanner {
+    padding-left: 3vw;
+    height: 50vh;
+    display: grid;
+    min-width: 400px;
+    min-height: 600px;
+    text-align: left;
+}

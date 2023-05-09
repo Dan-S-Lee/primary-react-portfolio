@@ -1,0 +1,14 @@
+hr {
+    width: 1px;
+    -webkit-animation: increase 2s;
+    -moz-animation:    increase 2s;
+    -o-animation:      increase 2s;
+    animation:         increase 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes increase {
+    100% {
+        width: 50vw;
+    }
+}

@@ -1,0 +1,29 @@
+.projectHeadlineContainer {
+    padding-top: 80px;
+}
+
+.headlineRow {
+    padding-top: 32px;
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.headlineDescRow {
+    justify-content: center;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.projectName {
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    line-height: 37.5px;
+    font-weight: 600;
+}
+
+.projectDesc {
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+}

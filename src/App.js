@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './pages/Home';
+import About from './pages/About';
+import CapitalOne from './pages/CapitalOne';
+import SPGlobal from './pages/SPGlobal';
+import Capstone from './pages/Capstone.js';
+import JobBoard from './pages/JobBoard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Route, Routes } from 'react-router-dom';
+import React from "react";
+
+const App = () => {
+    return (
+        <>
+            <Routes>
+                <Route path={"/"} element={<Home/>}/>
+                <Route path={"/about"} element={<About/>}/>
+                <Route path={"/capitalone"} element={<CapitalOne/>}/>
+                <Route path={"/spglobal"} element={<SPGlobal/>}/>
+                <Route path={"/capstone"} element={<Capstone/>}/>
+                <Route path={"/jobboard"} element={<JobBoard/>}/>
+            </Routes>
+        </>
+    );
+
+};
 
 export default App;
