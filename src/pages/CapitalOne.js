@@ -14,7 +14,7 @@ function CapitalOne() {
             projectDesc: '.',
             caseStudyHref: "PlanitCaseStudy",
             BannerImgRef: "images/bigusbank_banner.png",
-            role: "Software Enginner",
+            role: "Software Engineer",
             tools: "Python \n Java \n SQL",
             timeline: "Feb, 2022 - Present",
             overview: "I led the implementation of an ETL pipeline that transferred data from low-level SQL servers to" +
