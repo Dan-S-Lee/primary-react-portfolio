@@ -1,0 +1,13 @@
+.wip-row {
+    padding-top: 80px;
+    max-width: 100%;
+    padding-bottom: 80px;
+    min-height: 90vh;
+    margin: auto;
+    text-align: center;
+}
+.main-title {
+    font-size: 20em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
