@@ -17,20 +17,18 @@ function Capstone() {
             role: "Data Scientist, Software Engineer",
             tools: "Python \n Pyspark",
             timeline: "Sep, 2022 - Mar, 2023",
-            overview: "As my capstone project for my master's in data science at the University of Chicago," +
+            overview: "For the final capstone of my master's in data science at the University of Chicago," +
                 "I developed a methodology and analytical approach to disentangle text chat and identify instances of" +
                 " harassment. By leveraging my expertise in machine learning and data analysis, I was able to create a" +
                 " novel labelling strategy that made the modeling more scalable and chat platform agnostic. This " +
                 "framework provides a cutting-edge solution to the challenge of identifying who is talking to whom " +
                 "in long-form text conversations. ",
             achievements: [
-                " Developed a methodology and analytical approach to identify instances of cyber harassment in " +
+                "Developed a methodology and analytical approach to identify instances of cyber harassment in " +
                 "long-form text conversations.",
                 "Created a novel labelling strategy that made modeling more scalable and chat platform agnostic.",
                 "Developed models using neural networks, logistic regression, decision trees, and ensemble methods " +
-                "to accurately disentangle chat data with a combined accuracy of .94.",
-                "Collaborated with front-end and back-end developers to validate the feasibility of the new " +
-                "leaderboard designs and ensure that they met the business requirements."
+                "to accurately disentangle chat data with a combined accuracy of .94."
             ],
             impact: "My work has important implications for addressing the pervasive issue of cyber harassment. " +
                 "By disentangling text conversations and accurately attributing instances of harassment, my " +
