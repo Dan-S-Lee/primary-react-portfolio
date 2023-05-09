@@ -11,7 +11,7 @@ function ProjectContent({params}) {
         <Container className="projectContentContainer">
             <Row className={"projectContentRow"}>
                 <Col xl={5} className={"contentTitleColumn"}>
-                    <h1 className="contentTitle">Project Details</h1>
+                    <h1 className="contentTitle">My Role</h1>
                 </Col>
                 <Col xl={7} className={"contentColumn"}>
                     <Row className={'projectContentSubRow'}>
